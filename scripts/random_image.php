@@ -1,7 +1,7 @@
 <?php
 
     $root = $_SERVER['DOCUMENT_ROOT'];
-    $path = '/imasjid/assets/images/slide2/';
+    $path = '/web-masjid/assets/images/slide2/';
 
     function getImagesFromDir($path) {
         $images = array();

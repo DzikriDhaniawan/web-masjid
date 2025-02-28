@@ -3,7 +3,7 @@
 		$database_host = 'localhost';
 		$database_user = 'root';
 		$database_pass = '';
-		$database_name = 'masjid';
+		$database_name = 'masjid2';
 
 		try {
 			return new PDO('mysql:host=' . $database_host . ';dbname=' . $database_name . ';charset=utf8', $database_user, $database_pass);
